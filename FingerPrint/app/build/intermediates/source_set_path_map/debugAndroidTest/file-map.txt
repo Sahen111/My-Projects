@@ -1,0 +1,5 @@
+com.example.fingerprint.test.app-core-1.6.1-0 C:\Users\sahen\.gradle\caches\transforms-3\5e063e29cd2a4a71f6b11de7da5c7bfc\transformed\core-1.6.1\res
+com.example.fingerprint.test.app-androidTest-1 C:\Users\sahen\AndroidStudioProjects\FingerPrint\app\build\generated\res\resValues\androidTest\debug
+com.example.fingerprint.test.app-mergeDebugAndroidTestResources-2 C:\Users\sahen\AndroidStudioProjects\FingerPrint\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.fingerprint.test.app-mergeDebugAndroidTestResources-3 C:\Users\sahen\AndroidStudioProjects\FingerPrint\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.fingerprint.test.app-merged_res-4 C:\Users\sahen\AndroidStudioProjects\FingerPrint\app\build\intermediates\merged_res\debugAndroidTest

@@ -1,0 +1,3 @@
+com.example.fingerprint.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

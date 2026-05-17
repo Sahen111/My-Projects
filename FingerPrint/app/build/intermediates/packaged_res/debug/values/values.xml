@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">FingerPrint</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="result_will_be_displayed_here">Result will be displayed here</string>
+    <style name="Base.Theme.FingerPrint" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.FingerPrint" parent="Base.Theme.FingerPrint"/>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergencySosActivity"
+    android:background="@color/emergencyred">
+
+    <ImageButton
+        android:id="@+id/imgbtnSOS"
+        android:layout_width="413dp"
+        android:layout_height="397dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="@color/emergencyred"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/untitled_design_removebg_preview"
+        android:contentDescription="@string/todo1"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="@string/click_on_the_sos_button_above_to_send_an_sos_to_all_of_you_emergency_contacts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtnSOS" />
+
+    <ImageButton
+        android:id="@+id/imgbtnBack"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/emergencyred"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/imgbtnSOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_arrow_back_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\layout_fragment_donate.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\layout\\fragment_donate.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_home.png.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_custom_loginbtn.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\custom_loginbtn.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_foundation_logo.png.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\foundation_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_ilksplash.gif.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\ilksplash.gif"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\layout_fragment_volunteer.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\layout\\fragment_volunteer.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\baseline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_volunteer.png.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\volunteer.png"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_info.png.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\info.png"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_events.png.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\events.png"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\layout_fragment_notifications.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ilkfoundationapp-merged_res-58:/layout_activity_main.xml.flat",
+        "source": "com.example.ilkfoundationapp-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_custom_editext.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\custom_editext.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_donate.png.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\donate.png"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\drawable_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\drawable\\baseline_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\layout_fragment_about.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-merged_res-58:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\sahen\\.gradle\\daemon\\8.0\\com.example.ilkfoundationapp-main-60:\\layout\\activity_register.xml"
+    }
+]

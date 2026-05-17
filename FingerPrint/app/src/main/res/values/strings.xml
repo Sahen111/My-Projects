@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">FingerPrint</string>
-    <string name="authenticate">Authenticate</string>
-    <string name="result_will_be_displayed_here">Result will be displayed here</string>
-</resources>

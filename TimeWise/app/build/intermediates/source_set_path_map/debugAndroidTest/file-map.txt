@@ -1,0 +1,7 @@
+com.example.timewise.test.app-annotation-experimental-1.3.0-0 C:\Users\lab_services_student\.gradle\caches\transforms-3\f5324c35a483c59ccb07297d45528418\transformed\annotation-experimental-1.3.0\res
+com.example.timewise.test.app-core-1.5.0-1 C:\Users\lab_services_student\.gradle\caches\transforms-3\fa10eb77a8524c18cf71102d742ad585\transformed\core-1.5.0\res
+com.example.timewise.test.app-androidTest-2 C:\Users\lab_services_student\AndroidStudioProjects\TimeWise\app\build\generated\res\resValues\androidTest\debug
+com.example.timewise.test.app-androidTest-3 C:\Users\lab_services_student\AndroidStudioProjects\TimeWise\app\build\generated\res\rs\androidTest\debug
+com.example.timewise.test.app-mergeDebugAndroidTestResources-4 C:\Users\lab_services_student\AndroidStudioProjects\TimeWise\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.timewise.test.app-mergeDebugAndroidTestResources-5 C:\Users\lab_services_student\AndroidStudioProjects\TimeWise\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.timewise.test.app-merged_res-6 C:\Users\lab_services_student\AndroidStudioProjects\TimeWise\app\build\intermediates\merged_res\debugAndroidTest

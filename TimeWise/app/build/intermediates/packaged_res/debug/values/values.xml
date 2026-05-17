@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_items">
+        <item>Category 1</item>
+        <item>Category 2</item>
+        <item>Category 3</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="brighter_orange">#FFA726</color>
+    <color name="button1_color">#FF5733</color>
+    <color name="color1">#FF5733</color>
+    <color name="color2">#FFC300</color>
+    <color name="color3">#36A2EB</color>
+    <color name="color4">#4CAF50</color>
+    <color name="color5">#9C27B0</color>
+    <color name="darker_orange">#FF8C00</color>
+    <color name="darker_orange2">#FF6F00</color>
+    <color name="default_color">#CCCCCC</color>
+    <color name="grey">#808080</color>
+    <color name="orange">#FFA500</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="_0">0</string>
+    <string name="_00">00</string>
+    <string name="_001">00</string>
+    <string name="_00max">00</string>
+    <string name="_15m">+15m</string>
+    <string name="_20_hours">20 Hours</string>
+    <string name="_6_hours_to_complete">6 Hours to Complete</string>
+    <string name="about_us">About Us</string>
+    <string name="about_us1">About Us</string>
+    <string name="add_picture">Add Picture</string>
+    <string name="app_name">TimeWise</string>
+    <string name="at_timewise_we_re_on_a_relentless_mission_to_safeguard_and_optimize_your_most_valuable_resource_time">At TimeWise, we\'re on a relentless mission to safeguard and optimize your most valuable resource: Time</string>
+    <string name="at_timewise_we_re_on_a_relentless_mission_to_safeguard_and_optimize_your_most_valuable_resourec_time">At TimeWise, we\'re on a relentless mission to safeguard and optimize your most valuable resourec: Time</string>
+    <string name="change_time">Change Time</string>
+    <string name="choose_a_category">Choose a Category</string>
+    <string name="choose_an_image_from_your_gallery">Choose an image from your gallery</string>
+    <string name="colour1">Colour1</string>
+    <string name="colour2">Colour2</string>
+    <string name="colour3">Colour3</string>
+    <string name="colour4">Colour4</string>
+    <string name="colour5">Colour5</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_entry">Create Entry</string>
+    <string name="create_your_account">Create your Account</string>
+    <string name="daily_time_stats">DAILY TIME STATS</string>
+    <string name="daily_time_stats1">DAILY TIME STATS</string>
+    <string name="description">Description</string>
+    <string name="email">Email</string>
+    <string name="end_date">End Date</string>
+    <string name="end_date1">End Date</string>
+    <string name="end_date2">End Date</string>
+    <string name="end_date3">End Date</string>
+    <string name="end_date4">End Date</string>
+    <string name="end_time">End Time</string>
+    <string name="enter_minimum_and_maximum_daily_goal">Enter Minimum and Maximum Daily Goal</string>
+    <string name="enter_new_category">Enter New Category</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="gcm_defaultSenderId" translatable="false">1029457296431</string>
+    <string name="google_api_key" translatable="false">AIzaSyA4zzl0CDRG5IARO2BRzGfnB9-fwIz1638</string>
+    <string name="google_app_id" translatable="false">1:1029457296431:android:2727bf25b46dbdef12dada</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA4zzl0CDRG5IARO2BRzGfnB9-fwIz1638</string>
+    <string name="google_storage_bucket" translatable="false">timewise-7f9b3.appspot.com</string>
+    <string name="graph">Graph</string>
+    <string name="level_1">Level 1</string>
+    <string name="login">login</string>
+    <string name="max_hours">Max Hours</string>
+    <string name="maximum_daily_goal">Maximum Daily Goal</string>
+    <string name="maximum_daily_goal1">Maximum Daily Goal</string>
+    <string name="min_hours">Min Hours</string>
+    <string name="minimum_daily_goal">Minimum Daily Goal</string>
+    <string name="minimum_daily_goal1">Minimum Daily Goal</string>
+    <string name="minutes_left">minutes left</string>
+    <string name="name">Name</string>
+    <string name="new_category">New Category</string>
+    <string name="new_category1">New Category</string>
+    <string name="ok">ok</string>
+    <string name="password">Password</string>
+    <string name="plot_graph">Plot Graph</string>
+    <string name="project_id" translatable="false">timewise-7f9b3</string>
+    <string name="register">Register</string>
+    <string name="reset_timer">Reset Timer</string>
+    <string name="save">Save</string>
+    <string name="saveCat">Save</string>
+    <string name="save_goals">Save Goals</string>
+    <string name="search_timesheet_entries">Search Timesheet Entries</string>
+    <string name="select_end_date">Select end date</string>
+    <string name="select_start_date">Select start date</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_inbtn">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="start">Start</string>
+    <string name="start_date">Start Date</string>
+    <string name="start_date1">Start Date</string>
+    <string name="start_date2">Start Date</string>
+    <string name="start_date3">Start Date</string>
+    <string name="start_date4">Start Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="timer">Timer</string>
+    <string name="timer2">Timer</string>
+    <string name="timer3">Timer</string>
+    <string name="timer4">Timer</string>
+    <string name="todo">TODO</string>
+    <string name="todo11">TODO</string>
+    <string name="todo13">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="todo9">TODO</string>
+    <string name="todoload">TODO</string>
+    <string name="todoreg">TODO</string>
+    <string name="total_number_of_hours_spent_on_a_category">Total Number of hours spent on a category</string>
+    <string name="total_time">Total Time</string>
+    <string name="upload">Upload</string>
+    <string name="username">Username</string>
+    <string name="view_entries">View Entries</string>
+    <string name="view_goal_stats">View Goal Stats</string>
+    <string name="view_total_hours">View Total Hours</string>
+    <string name="we_believe_that_every_individual_has_the_potential_to_achieve_their_goals_and_aspirations_when_equipped_with_the_right_tools_and_resources">We believe that every individual has the potential to achieve their goals and aspirations when equipped with the right tools and resources</string>
+    <string name="we_understand_the_pressures_of_modern_life_and_the_constant_demand_for_efficiency_that_s_why_our_team_is_dedicated_to_crafting_intuitive_tools_that_empower_you_to_make_the_most_of_every_moment_with_our_timekeeping_app_we_aim_to_streamline_your_daily_tasks_boost_productivity_and_ultimately_give_you_back_precious_time_to_invest_in_what_truly_matters_to_you_join_us_in_our_journey_to_reclaim_lost_time_and_unlock_your_fullest_potential">We understand the pressures of modern life and the constant demand for efficiency. That\'s why our team is dedicated to crafting intuitive tools that empower you to make the most of every moment. With our timekeeping app, we aim to streamline your daily tasks, boost productivity, and ultimately give you back precious time to invest in what truly matters to you. Join us in our journey to reclaim lost time and unlock your fullest potential.</string>
+    <string name="your_progress">Your Progress</string>
+    <style name="Theme.TimeWise" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/darker_orange2</item>
+        <item name="colorPrimaryVariant">@color/darker_orange2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

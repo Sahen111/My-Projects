@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">739291814382</string>
+    <string name="google_api_key" translatable="false">AIzaSyCE7RwR4hmaFdW7V369b8hHu4xzDYThgDY</string>
+    <string name="google_app_id" translatable="false">1:739291814382:android:acb1d60f14bbd2916f96ff</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCE7RwR4hmaFdW7V369b8hHu4xzDYThgDY</string>
+    <string name="google_storage_bucket" translatable="false">ilk-foundation-app.appspot.com</string>
+    <string name="project_id" translatable="false">ilk-foundation-app</string>
+</resources>
