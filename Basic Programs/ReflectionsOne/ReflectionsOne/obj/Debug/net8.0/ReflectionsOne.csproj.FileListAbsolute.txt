@@ -1,0 +1,14 @@
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\bin\Debug\net8.0\ReflectionsOne.exe
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\bin\Debug\net8.0\ReflectionsOne.deps.json
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\bin\Debug\net8.0\ReflectionsOne.runtimeconfig.json
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\bin\Debug\net8.0\ReflectionsOne.dll
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\bin\Debug\net8.0\ReflectionsOne.pdb
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\obj\Debug\net8.0\ReflectionsOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\obj\Debug\net8.0\ReflectionsOne.AssemblyInfoInputs.cache
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\obj\Debug\net8.0\ReflectionsOne.AssemblyInfo.cs
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\obj\Debug\net8.0\ReflectionsOne.csproj.CoreCompileInputs.cache
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\obj\Debug\net8.0\ReflectionsOne.dll
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\obj\Debug\net8.0\refint\ReflectionsOne.dll
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\obj\Debug\net8.0\ReflectionsOne.pdb
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\obj\Debug\net8.0\ReflectionsOne.genruntimeconfig.cache
+C:\Users\sahen\source\repos\ReflectionsOne\ReflectionsOne\obj\Debug\net8.0\ref\ReflectionsOne.dll

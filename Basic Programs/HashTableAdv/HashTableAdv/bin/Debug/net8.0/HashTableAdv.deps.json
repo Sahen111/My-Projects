@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HashTableAdv/1.0.0": {
+        "runtime": {
+          "HashTableAdv.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HashTableAdv/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

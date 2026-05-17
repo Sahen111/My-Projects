@@ -1,0 +1,10 @@
+C:\Users\sahen\source\repos\ReflectionsForm\ReflectionsForm\bin\Debug\ReflectionsForm.exe.config
+C:\Users\sahen\source\repos\ReflectionsForm\ReflectionsForm\bin\Debug\ReflectionsForm.exe
+C:\Users\sahen\source\repos\ReflectionsForm\ReflectionsForm\bin\Debug\ReflectionsForm.pdb
+C:\Users\sahen\source\repos\ReflectionsForm\ReflectionsForm\obj\Debug\ReflectionsForm.csproj.AssemblyReference.cache
+C:\Users\sahen\source\repos\ReflectionsForm\ReflectionsForm\obj\Debug\ReflectionsForm.Form1.resources
+C:\Users\sahen\source\repos\ReflectionsForm\ReflectionsForm\obj\Debug\ReflectionsForm.Properties.Resources.resources
+C:\Users\sahen\source\repos\ReflectionsForm\ReflectionsForm\obj\Debug\ReflectionsForm.csproj.GenerateResource.cache
+C:\Users\sahen\source\repos\ReflectionsForm\ReflectionsForm\obj\Debug\ReflectionsForm.csproj.CoreCompileInputs.cache
+C:\Users\sahen\source\repos\ReflectionsForm\ReflectionsForm\obj\Debug\ReflectionsForm.exe
+C:\Users\sahen\source\repos\ReflectionsForm\ReflectionsForm\obj\Debug\ReflectionsForm.pdb

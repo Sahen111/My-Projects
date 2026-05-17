@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CoinFlip" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- window background -->
+        <item name="android:windowBackground">?attr/colorSurface</item>
+        <!-- default text color -->
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+</resources>

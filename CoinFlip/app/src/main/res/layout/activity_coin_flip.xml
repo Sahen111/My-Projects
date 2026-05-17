@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="?attr/colorSurface"
+    tools:context=".CoinFlip">
+
+    <!-- Coin Image -->
+    <ImageView
+        android:id="@+id/coinImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/defaultcoin"
+        android:contentDescription="@string/coin_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Result Label -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap coin to flip"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/coinImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Heads Label Input -->
+    <EditText
+        android:id="@+id/headsLabelInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="?attr/colorOnSurface"
+        android:hint="Heads name"
+        android:minHeight="48dp"
+        android:text="HEADS"
+        android:textColor="?attr/colorOnSurface"
+        android:textColorHint="?attr/colorOnSurface"
+        app:layout_constraintEnd_toStartOf="@id/tailsLabelInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resultTextView"
+        app:layout_constraintWidth_percent="0.48" />
+
+    <!-- Tails Label Input -->
+    <EditText
+        android:id="@+id/tailsLabelInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="?attr/colorOnSurface"
+        android:hint="Tails name"
+        android:minHeight="48dp"
+        android:text="TAILS"
+        android:textColor="?attr/colorOnSurface"
+        android:textColorHint="?attr/colorOnSurface"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/headsLabelInput"
+        app:layout_constraintTop_toTopOf="@id/headsLabelInput"
+        app:layout_constraintWidth_percent="0.48" />
+
+    <!-- Light/Dark Mode Toggle -->
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/themeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        android:textColor="?attr/colorOnSurface"
+        android:thumbTint="?attr/colorOnSurface"
+        android:trackTint="?attr/colorOnSurface"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/headsLabelInput"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

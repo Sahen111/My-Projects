@@ -1,0 +1,14 @@
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\bin\Debug\net8.0\HashTablesBasic.exe
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\bin\Debug\net8.0\HashTablesBasic.deps.json
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\bin\Debug\net8.0\HashTablesBasic.runtimeconfig.json
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\bin\Debug\net8.0\HashTablesBasic.dll
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\bin\Debug\net8.0\HashTablesBasic.pdb
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\obj\Debug\net8.0\HashTablesBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\obj\Debug\net8.0\HashTablesBasic.AssemblyInfoInputs.cache
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\obj\Debug\net8.0\HashTablesBasic.AssemblyInfo.cs
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\obj\Debug\net8.0\HashTablesBasic.csproj.CoreCompileInputs.cache
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\obj\Debug\net8.0\HashTablesBasic.dll
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\obj\Debug\net8.0\refint\HashTablesBasic.dll
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\obj\Debug\net8.0\HashTablesBasic.pdb
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\obj\Debug\net8.0\HashTablesBasic.genruntimeconfig.cache
+C:\Users\sahen\source\repos\HashTablesBasic\HashTablesBasic\obj\Debug\net8.0\ref\HashTablesBasic.dll

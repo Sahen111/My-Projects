@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="emergencyred">#BF360C</color>
+    <color name="MainAppColour">#90CAF9</color>
+    <color name="SecondaryTextColor">#424242</color>
+    <color name="SecondaryTextColor2">#0D47A1</color>
+
+
+</resources>

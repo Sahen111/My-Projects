@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InviteCodeActivity"
+    android:background="@color/MainAppColour">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardElevation="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/xxxxxx"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:textAlignment="center"
+            android:text="@string/this_is_your_invite_code_send_this_code_to_your_friends_so_they_can_join_your_circle"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:text="@string/register"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/MainAppColour"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

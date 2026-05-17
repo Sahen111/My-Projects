@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MinMaxDailyGoals">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="1710dp"
+        android:layout_height="1951dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22"
+        app:srcCompat="@drawable/background"
+        android:contentDescription="@string/todo9" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/parentCardViewGoals"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="-450dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- EditText for Minimum Daily Goal -->
+            <EditText
+                android:id="@+id/txtMinDailyGoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/minimum_daily_goal"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:padding="16dp"
+                android:autofillHints="" />
+
+            <!-- EditText for Maximum Daily Goal -->
+            <EditText
+                android:id="@+id/txtMaxDailyGoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/maximum_daily_goal"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:padding="16dp"
+                android:autofillHints="" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/btnSaveGoals"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/darker_orange2"
+        android:text="@string/save_goals"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:contentDescription="@string/todo13"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/_844435_home_house_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

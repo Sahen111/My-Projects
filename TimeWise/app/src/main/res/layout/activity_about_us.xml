@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="446dp"
+        android:layout_height="956dp"
+        android:contentDescription="@string/todo4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="340dp"
+        android:layout_height="181dp"
+        android:gravity="center"
+        android:text="@string/at_timewise_we_re_on_a_relentless_mission_to_safeguard_and_optimize_your_most_valuable_resource_time"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="147dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="@string/about_us"
+        android:textColor="#EF6C00"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="299dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="@string/we_believe_that_every_individual_has_the_potential_to_achieve_their_goals_and_aspirations_when_equipped_with_the_right_tools_and_resources"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="380dp"
+        android:layout_height="202dp"
+        android:gravity="start"
+        android:text="@string/we_understand_the_pressures_of_modern_life_and_the_constant_demand_for_efficiency_that_s_why_our_team_is_dedicated_to_crafting_intuitive_tools_that_empower_you_to_make_the_most_of_every_moment_with_our_timekeeping_app_we_aim_to_streamline_your_daily_tasks_boost_productivity_and_ultimately_give_you_back_precious_time_to_invest_in_what_truly_matters_to_you_join_us_in_our_journey_to_reclaim_lost_time_and_unlock_your_fullest_potential"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="93dp"
+        android:layout_height="97dp"
+        android:contentDescription="@string/todo3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/_chgth8arj8m9qbdcp9d83bmgs_06fd3e159a3c5da93386e7897366e40b" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:contentDescription="@string/todo13"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/_844435_home_house_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

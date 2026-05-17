@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bloom & Co. — Premium event decor for weddings, baby showers, birthdays, bridal showers and all your special celebrations." />
+    <title>@ViewData["Title"] — Bloom &amp; Co.</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Josefin+Sans:wght@100;200;300;400;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+
+    <!-- Scroll progress bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Custom cursors -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Floating particles canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- ════════ NAVBAR ════════ -->
+    <nav class="navbar" id="mainNav">
+        <a href="/" class="nav-logo">Bloom <span>&amp; Co.</span></a>
+
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact" class="nav-cta">Book Now ✦</a></li>
+        </ul>
+    </nav>
+
+    <!-- ════════ PAGE CONTENT ════════ -->
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- ════════ FOOTER ════════ -->
+    <footer id="contact">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="nav-logo">Bloom <span>&amp; Co.</span></a>
+                <p>Crafting unforgettable moments through stunning decor. Every detail is intentional, every setup a work of art.</p>
+                <br />
+                <div class="social-links" style="margin-top:.5rem;">
+                    <a href="#" class="social-link" title="Instagram">📸</a>
+                    <a href="#" class="social-link" title="Facebook">📘</a>
+                    <a href="#" class="social-link" title="TikTok">🎵</a>
+                    <a href="#" class="social-link" title="WhatsApp">💬</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Baby Showers</a></li>
+                    <li><a href="#services">Bridal Showers</a></li>
+                    <li><a href="#services">Birthdays</a></li>
+                    <li><a href="#services">Weddings</a></li>
+                    <li><a href="#services">Corporate Events</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="tel:+27000000000">+27 000 000 0000</a></li>
+                    <li><a href="mailto:hello@bloomandco.co.za">hello@bloomandco.co.za</a></li>
+                    <li><a href="#">Durban, KwaZulu-Natal</a></li>
+                    <li><a href="#">Mon–Sat: 8am – 6pm</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; @DateTime.Now.Year Bloom &amp; Co. All rights reserved.</span>
+            <span>Made with 💛 for beautiful celebrations</span>
+        </div>
+    </footer>
+
+    <!-- ════════ SHARED SCRIPTS ════════ -->
+    <script>
+        /* ── Custom Cursor ───────────────────── */
+        const dot  = document.getElementById('cursorDot');
+        const ring = document.getElementById('cursorRing');
+        let mx = 0, my = 0, rx = 0, ry = 0;
+
+        document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+
+        function animateCursor() {
+            dot.style.left  = mx + 'px';
+            dot.style.top   = my + 'px';
+            rx += (mx - rx) * 0.14;
+            ry += (my - ry) * 0.14;
+            ring.style.left = rx + 'px';
+            ring.style.top  = ry + 'px';
+            requestAnimationFrame(animateCursor);
+        }
+        animateCursor();
+
+        document.querySelectorAll('a, button, .service-card, .testi-card').forEach(el => {
+            el.addEventListener('mouseenter', () => ring.classList.add('hovered'));
+            el.addEventListener('mouseleave', () => ring.classList.remove('hovered'));
+        });
+
+        /* ── Scroll Progress + Nav ───────────── */
+        const nav      = document.getElementById('mainNav');
+        const progress = document.getElementById('scrollProgress');
+
+        window.addEventListener('scroll', () => {
+            const scrolled = window.scrollY;
+            const total    = document.body.scrollHeight - window.innerHeight;
+            progress.style.width = (scrolled / total * 100) + '%';
+            nav.classList.toggle('scrolled', scrolled > 60);
+        });
+
+        /* ── Reveal on Scroll ────────────────── */
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.12 });
+        reveals.forEach(r => observer.observe(r));
+
+        /* ── Particles Canvas ────────────────── */
+        (function () {
+            const canvas = document.getElementById('particles-canvas');
+            const ctx    = canvas.getContext('2d');
+            let W, H, particles = [];
+
+            const COLORS = ['#E8607A','#D4A843','#9B72CF','#2ABFBF','#F4A7B5','#7FDFCC'];
+
+            function resize() {
+                W = canvas.width  = window.innerWidth;
+                H = canvas.height = window.innerHeight;
+            }
+
+            function mkParticle() {
+                return {
+                    x:  Math.random() * W,
+                    y:  Math.random() * H,
+                    r:  Math.random() * 3 + 1,
+                    dx: (Math.random() - .5) * .4,
+                    dy: (Math.random() - .5) * .4,
+                    color: COLORS[Math.floor(Math.random() * COLORS.length)],
+                    alpha: Math.random() * .4 + .1
+                };
+            }
+
+            function init() { resize(); particles = Array.from({ length: 70 }, mkParticle); }
+
+            function draw() {
+                ctx.clearRect(0, 0, W, H);
+                particles.forEach(p => {
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.fillStyle = p.color + Math.round(p.alpha * 255).toString(16).padStart(2,'0');
+                    ctx.fill();
+                    p.x += p.dx; p.y += p.dy;
+                    if (p.x < 0 || p.x > W) p.dx *= -1;
+                    if (p.y < 0 || p.y > H) p.dy *= -1;
+                });
+                requestAnimationFrame(draw);
+            }
+
+            window.addEventListener('resize', resize);
+            init(); draw();
+        })();
+
+        /* ── Count-up Animation ──────────────── */
+        function animateCount(el, target, suffix) {
+            let start = 0;
+            const step = target / 60;
+            const interval = setInterval(() => {
+                start += step;
+                if (start >= target) { start = target; clearInterval(interval); }
+                el.textContent = Math.floor(start) + suffix;
+            }, 25);
+        }
+
+        const statsObserver = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    document.querySelectorAll('.stat-num').forEach(el => {
+                        const val = parseInt(el.dataset.val);
+                        const sfx = el.dataset.suffix || '';
+                        animateCount(el, val, sfx);
+                    });
+                    statsObserver.disconnect();
+                }
+            });
+        }, { threshold: .3 });
+
+        const statsSection = document.querySelector('.about-stats');
+        if (statsSection) statsObserver.observe(statsSection);
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

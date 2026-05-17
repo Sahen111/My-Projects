@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListOfEntries">
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="651dp"
+      android:layout_height="899dp"
+      android:contentDescription="@string/todo11"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/background" />
+
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/parentCardView"
+      android:layout_width="370dp"
+      android:layout_height="200dp"
+      android:layout_marginTop="-450dp"
+      app:cardCornerRadius="8dp"
+      app:cardElevation="4dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.487"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.566">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+      <!-- TextView and EditText for Start Date -->
+      <TextView
+          android:id="@+id/txtViewStartDate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/start_date1"
+          android:textColor="@color/black"
+          android:textSize="16sp" />
+
+      <EditText
+          android:id="@+id/edtTextStartDate"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/select_start_date"
+          android:minHeight="48dp"
+          android:textColor="@color/black" />
+
+      <!-- TextView and EditText for End Date -->
+      <TextView
+          android:id="@+id/txtViewEndDate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="@string/end_date1"
+          android:textColor="@color/black"
+          android:textSize="16sp" />
+
+      <EditText
+          android:id="@+id/edtTextEndDate"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/select_end_date"
+          android:minHeight="48dp"
+          android:textColor="@color/black" />
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+  <Button
+      android:id="@+id/btnViewEntries"
+      android:layout_width="200dp"
+      android:layout_height="48dp"
+      android:backgroundTint="@color/darker_orange2"
+      android:onClick="onViewEntriesClicked"
+      android:text="@string/view_entries"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/parentCardView"
+      app:layout_constraintVertical_bias="0.082" />
+
+  <ScrollView
+      android:layout_width="375dp"
+      android:layout_height="279dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.87">
+
+    <TextView
+        android:id="@+id/txtListOfEntries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+  </ScrollView>
+
+  <ImageButton
+      android:id="@+id/btnHome"
+      android:layout_width="48dp"
+      android:layout_height="51dp"
+      android:contentDescription="@string/todo13"
+      android:background="@android:color/transparent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.043"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.98"
+      app:srcCompat="@drawable/_844435_home_house_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

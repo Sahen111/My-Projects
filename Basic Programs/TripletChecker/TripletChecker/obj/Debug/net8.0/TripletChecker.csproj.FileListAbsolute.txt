@@ -1,0 +1,14 @@
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\bin\Debug\net8.0\TripletChecker.exe
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\bin\Debug\net8.0\TripletChecker.deps.json
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\bin\Debug\net8.0\TripletChecker.runtimeconfig.json
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\bin\Debug\net8.0\TripletChecker.dll
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\bin\Debug\net8.0\TripletChecker.pdb
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\obj\Debug\net8.0\TripletChecker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\obj\Debug\net8.0\TripletChecker.AssemblyInfoInputs.cache
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\obj\Debug\net8.0\TripletChecker.AssemblyInfo.cs
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\obj\Debug\net8.0\TripletChecker.csproj.CoreCompileInputs.cache
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\obj\Debug\net8.0\TripletChecker.dll
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\obj\Debug\net8.0\refint\TripletChecker.dll
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\obj\Debug\net8.0\TripletChecker.pdb
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\obj\Debug\net8.0\TripletChecker.genruntimeconfig.cache
+C:\Users\sahen\source\repos\TripletChecker\TripletChecker\obj\Debug\net8.0\ref\TripletChecker.dll

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_signOut"
+            android:icon="@drawable/logout"
+            android:title="@string/sign_out" />
+        <item
+            android:id="@+id/nav_joinCircle"
+            android:icon="@drawable/joincircle4"
+            android:title="@string/join_circle1" />
+        <item
+            android:id="@+id/nav_myCircle"
+            android:icon="@drawable/mycircle2"
+            android:title="@string/my_circle2" />
+        <item
+            android:id="@+id/nav_inviteMembers"
+            android:icon="@drawable/invitemembers"
+            android:title="@string/invite_members" />
+        <item
+            android:id="@+id/nav_sendSOS"
+            android:icon="@drawable/sos"
+            android:title="@string/send_emergency_sos" />
+        <item
+            android:id="@+id/nav_ShareLoc"
+            android:icon="@drawable/joincircle3"
+            android:title="@string/share_location" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+    </group>
+</menu>

@@ -1,0 +1,14 @@
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\obj\Debug\net8.0\BasicTreesTwo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\obj\Debug\net8.0\BasicTreesTwo.AssemblyInfoInputs.cache
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\obj\Debug\net8.0\BasicTreesTwo.AssemblyInfo.cs
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\obj\Debug\net8.0\BasicTreesTwo.csproj.CoreCompileInputs.cache
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\bin\Debug\net8.0\BasicTreesTwo.exe
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\bin\Debug\net8.0\BasicTreesTwo.deps.json
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\bin\Debug\net8.0\BasicTreesTwo.runtimeconfig.json
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\bin\Debug\net8.0\BasicTreesTwo.dll
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\bin\Debug\net8.0\BasicTreesTwo.pdb
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\obj\Debug\net8.0\BasicTreesTwo.dll
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\obj\Debug\net8.0\refint\BasicTreesTwo.dll
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\obj\Debug\net8.0\BasicTreesTwo.pdb
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\obj\Debug\net8.0\BasicTreesTwo.genruntimeconfig.cache
+C:\Users\sahen\source\repos\BasicTreesTwo\BasicTreesTwo\obj\Debug\net8.0\ref\BasicTreesTwo.dll
